@@ -26,6 +26,7 @@ def compute(s: str) -> tuple[int, tuple[str, int], str]:
     word_v_index = -1
     separators = {' ', ',', '.', ';', '!', '?'}
     found_v = False
+    word_with_v
 
     # Process each character
     for char in s:

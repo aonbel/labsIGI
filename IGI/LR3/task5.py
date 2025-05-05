@@ -40,7 +40,3 @@ def compute(arr: list[float]) -> tuple[float, float]:
     sum_between = sum(arr[first_zero + 1 : last_zero])
 
     return (product, sum_between)
-
-# Example usage (for testing):
-# arr = read_parse_list()
-# print(compute(arr))

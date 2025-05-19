@@ -30,4 +30,5 @@ def compute(x: float, eps: float) -> tuple[float, int]:
         numerator *= (2 * iter + 1) * (2 * iter + 2)
         denominator *= 4 * (iter + 1) ** 2
         pow_x *= x * x
+    
     return (result, needed_iter)
